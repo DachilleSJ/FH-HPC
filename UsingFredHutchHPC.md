@@ -27,27 +27,35 @@ See my previous tutorial. you dont really need a special env for this, but you s
 On St. Jude, you used to have to run
 ```hpcf_interactive```
 or a bsub job specifying memory. Here it is arguably easier. Just type:
-
-```grabnode``` 
-
+```
+grabnode
+``` 
 and you will be prompted with questions to answer, like how much memory, how many cores, and how much time would you like the session to run for?
 
 Note: You **can** exceed the memory allotted to you, as you are sharing the resources. Be a good data steward and don't load things into memory that are larged than the memory you allocated. 
 
 You can view the queue with 
 
-```hitparade```
+```
+hitparade
+```
 
 or the top using
 
-```hitparade | head -n 5```
+```
+hitparade | head -n 5
+```
 
 or even our usage with 
 
-```hitparade | grep thomas_p```
+```
+hitparade | grep thomas_p
+```
 
 You can also check usage with 
-```htop```
+```
+htop
+```
 and exit the view with "q"
 
 ### Running srun jobs
@@ -67,7 +75,9 @@ I made a list of "friends" in a text file called ``friends.txt``, some code to s
 
 To run the job, which basically says "Hello <friend>" in the <friend_name>.out log file and in a separate <friend_name> to all of my "friends", type:
 
-```sbatch runjobs.sh```
+```
+sbatch runjobs.sh
+```
 
 while in this directory ``/fh/fast/thomas_p/grp/dachille/slurm_fun``
 
