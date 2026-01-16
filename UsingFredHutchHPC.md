@@ -1,4 +1,4 @@
-#Using the FH HPC
+# Using the FH HPC
 The FH has its own HPC which we can run jobs on, just like at St. Jude.
 
 It has its own set of commands. At St. Jude we would use bsub, but here we use SBATCH for jobs as it is **Slurm**.
