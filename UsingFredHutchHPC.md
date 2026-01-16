@@ -75,6 +75,8 @@ while in this directory ``/fh/fast/thomas_p/grp/dachille/slurm_fun``
 
 If you want to copy this and test out some slurm job submission stuff, here is the code for all the files mentioned here:
 
+They can also be found in this repo!
+
 friends.txt
 ```
 Randy
