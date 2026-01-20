@@ -1,7 +1,7 @@
 # Using the FH HPC
 The FH has its own HPC which we can run jobs on, just like at St. Jude.
 
-It has its own set of commands. At St. Jude we would use bsub, but here we use SBATCH for jobs as it is **Slurm**.
+It has its own set of commands. At St. Jude we would use bsub, but here we use SBATCH for jobs as it is **Slurm** based.
 
 ## Using Slurm
 
@@ -32,7 +32,7 @@ grabnode
 ``` 
 and you will be prompted with questions to answer, like how much memory, how many cores, and how much time would you like the session to run for?
 
-Note: You **can** exceed the memory allotted to you, as you are sharing the resources. Be a good data steward and don't load things into memory that are larged than the memory you allocated. 
+Note: You **can** exceed the memory allotted to you, as you are sharing the resources. Be a good data steward and don't load things into memory that are larger than the memory you allocated. 
 
 You can view the queue with 
 
