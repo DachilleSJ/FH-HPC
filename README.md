@@ -8,9 +8,11 @@ It has its own set of commands. At St. Jude we would use bsub, but here we use S
 ### Connect to the HPC
 Connect to the HPC by opening a terminal instance (on Mac) and typing
 ```
-ssh rhino
+ssh rhino02
 ```
 You will then be prompted to type in your password to enter the HPC.
+
+Note: rhino above has a number after it, to keep your same tmux session (below) use the same number when using "sshing" into rhino.
 
 ### Use tmux to create sessions
 To manage different tasks, you can use a command called ``tmux ``. This command allows you to swap between different sessions which can run different tasks. If you are running some code and have to go off and do something, your tmux session can be running in the background without you losing it if you are logged out.
