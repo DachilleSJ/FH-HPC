@@ -15,7 +15,7 @@ You will then be prompted to type in your password to enter the HPC.
 Note: rhino above has a number after it, to keep your same tmux session (below) use the same number when using "sshing" into rhino.
 
 ### Use tmux to create sessions
-To manage different tasks, you can use a command called ``tmux ``. This command allows you to swap between different sessions which can run different tasks. If you are running some code and have to go off and do something, your tmux session can be running in the background without you losing it if you are logged out.
+To manage different tasks, you can use a command called ``tmux``. This command allows you to swap between different sessions which can run different tasks. If you are running some code and have to go off and do something, your tmux session can be running in the background without you losing it if you are logged out of the HPC.
 
 You can swap between sessions using ``ctrl + B, then W`` in sequence. Type ``logout`` to end a tmux session. 
 
