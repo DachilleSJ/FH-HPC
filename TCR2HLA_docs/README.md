@@ -76,7 +76,7 @@ Bring in the files. In my example here, on line 59, we will load in ``path_to_bi
 I've already begun some preliminary analysis into this see ``/fh/fast/thomas_/grp/dachille/TOT15_BulkTCRAnalysis/david_asparaginase/david_code/002d_analyze_tcr2hla_out.py``, but this will give fisher results for all columns that existed in your binary.
 
 For instance I generated this histogram: 
-![Alt text](beta_network_clustering.png)
+![Alt text](cluster_sizes_hits.png)
 
 And this network plot:
 ![Alt text](beta_network_clustering.png)
